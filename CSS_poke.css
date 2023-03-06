@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .pokedex {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pokedex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1c40f;
+    padding: 20px;
+  }
+  
+  .pokedex-search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .pokedex-search button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #f1c40f;
+    cursor: pointer;
+  }
+  
+  .pokedex-filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #f1c40f;
+    cursor: pointer;
+  }
+  
+.filter-button:hover{
